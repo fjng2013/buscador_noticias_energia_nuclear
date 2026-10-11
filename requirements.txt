@@ -1,0 +1,16 @@
+# SDK Oficial de Google Gemini
+google-genai>=1.0.0
+
+# Búsqueda y extracción de noticias
+feedparser>=6.0.11
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+duckduckgo-search>=7.0.0
+
+# Interfaz Web interactiva
+streamlit>=1.40.0
+pandas>=2.2.0
+
+# Variables de entorno y utilidades
+python-dotenv>=1.0.1
+pydantic>=2.10.0

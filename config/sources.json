@@ -1,0 +1,51 @@
+{
+  "google_news": {
+    "national": {
+      "query": "\"energía nuclear\" OR \"central nuclear\" OR \"reactor nuclear\" OR \"CSN\" OR \"Almaraz\" OR \"Vandellós\" OR \"Trillo\" OR \"Cofrentes\" OR \"Ascó\"",
+      "language": "es",
+      "country": "ES"
+    },
+    "international": {
+      "query": "(\"nuclear energy\" OR \"nuclear power\" OR \"SMR\" OR \"small modular reactor\" OR \"nuclear plant\") -weapon -bomb",
+      "language": "en",
+      "country": "US"
+    }
+  },
+  "official_sources": [
+    {
+      "name": "Consejo de Seguridad Nuclear (CSN)",
+      "scope": "national",
+      "type": "rss",
+      "url": "https://www.csn.es/rss/noticias"
+    },
+    {
+      "name": "Foro Nuclear (España)",
+      "scope": "national",
+      "type": "web_scrape",
+      "url": "https://www.foronuclear.org/actualidad/noticias/"
+    },
+    {
+      "name": "World Nuclear News (WNN)",
+      "scope": "international",
+      "type": "rss",
+      "url": "https://www.world-nuclear-news.org/RSS"
+    },
+    {
+      "name": "IAEA (OIEA - Noticias)",
+      "scope": "international",
+      "type": "rss",
+      "url": "https://www.iaea.org/feeds/news"
+    }
+  ],
+  "duckduckgo": {
+    "national_keywords": [
+      "energia nuclear comercial España",
+      "central nuclear España Almaraz Cofrentes Trillo Asco Vandellos",
+      "SMR reactores modulares España energia"
+    ],
+    "international_keywords": [
+      "commercial nuclear power energy plant SMR",
+      "nuclear energy commercial reactors global market"
+    ]
+  }
+}
